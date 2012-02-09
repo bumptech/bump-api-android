@@ -21,7 +21,7 @@ A complete, working example project is contained in `bump-test`.
 
 1. Run `android update` on both projects: `android update project -p bump-api-library/; android update project -p bump-test/;`
 
-Reference the Bump library:
+Reference the Bump library
 -------------------------------------------
 In your shell, run `android update project -l path_to/bump-api-library -p path_to_your_project/`
 
