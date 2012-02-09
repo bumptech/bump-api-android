@@ -1,0 +1,5 @@
+libs/
+obj/
+local.properties
+gen/
+bin/
