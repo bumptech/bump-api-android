@@ -12,6 +12,14 @@ Highlights
 * multiple concurrent sessions: once two users have matched, they can continue to send data to each other and other users
 * at the moment breaks compatibility with earlier versions of the API... consider using a different API key just to be safe.
 
+Release Notes
+=============
+
+Beta 2
+------
+* The Bump service stops itself when completely unbound.
+* README's `android update project` example corrected with additional required parameter.
+
 Getting Started
 ===============
 
@@ -23,7 +31,7 @@ A complete, working example project is contained in `bump-test`.
 
 Reference the Bump library
 -------------------------------------------
-In your shell, run `android update project -l path_to/bump-api-library -p path_to_your_project/`
+In your shell, run `android update project -t android-15 -l path_to/bump-api-library -p path_to_your_project/`
 
 
 AndroidManifest.xml
