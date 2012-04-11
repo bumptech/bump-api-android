@@ -15,6 +15,11 @@ Highlights
 Release Notes
 =============
 
+Beta 3
+------
+* disableBumping now works
+* constants provided for Intent extras  
+
 Beta 2
 ------
 * The Bump service stops itself when completely unbound.

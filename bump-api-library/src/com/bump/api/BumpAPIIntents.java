@@ -30,17 +30,22 @@ public class BumpAPIIntents {
      *   long proposedChannelID (the proposed channel ID of the other party)
     */
     public static final String MATCHED = "com.bumptech.api.matched";
+    public static final String MATCHED_EXTRA_PROPOSED_CHANNEL_ID = "proposedChannelID";
 
     /* Broadcast when a channel has been confirmed by both parties.
      * Extras:
-     *   long proposedChannelID
+     *   long channelID
     */
     public static final String CHANNEL_CONFIRMED = "com.bumptech.api.channelConfirmed";
+    public static final String CHANNEL_CONFIRMED_EXTRA_CHANNEL_ID = "channelID";
 
     /* Broadcast when data is received from the other user in a session
      * Extras:
-     *   long channelID (the channel on which this data was received)
+     *   long channelID (the channel on which the data was received) 
      *   byte[] data
     */
     public static final String DATA_RECEIVED = "com.bumptech.api.dataReceived";
+    public static final String DATA_RECEIVED_EXTRA_CHANNEL_ID = "channelID";    
+    public static final String DATA_RECEIVED_EXTRA_DATA = "data";
+    
 }
