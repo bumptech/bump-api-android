@@ -15,6 +15,10 @@ Highlights
 Release Notes
 =============
 
+Beta 4
+------
+* Bugfixes
+
 Beta 3
 ------
 * disableBumping now works
