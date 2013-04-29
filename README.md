@@ -36,7 +36,7 @@ A complete, working example project is contained in `bump-test`.
 
 1. Agree to the API license agreement and get your API key: http://bu.mp/apiagree
 
-1. Run `android update` on both projects: `android update project -p bump-api-library/; android update project -p bump-test/;`
+1. Run `android update` on both projects: `android update project -t android-15 -p bump-api-library/; android update project -p bump-test/;`
 
 1. Bump logos and other assets are available here: http://bu.mp/bumpAPIinstructions . Please be aware of the trademark guidelines (http://bu.mp/company/apitrademark), to which you must agree before receiving an API key.
 
