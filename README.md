@@ -64,7 +64,8 @@ Require the following permissions, if you haven't already, in your `<manifest>`:
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.VIBRATE" />   
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />   
 ```
 
 Import
