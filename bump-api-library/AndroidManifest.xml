@@ -10,4 +10,6 @@
       </intent-filter>
     </service>
   </application>
+  <uses-sdk android:minSdkVersion="14" />
+
 </manifest>
